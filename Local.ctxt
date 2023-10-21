@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Local
+comment0.text=\n\ Classe\ Local\ -\ um\ local\ em\ um\ jogo\ adventure.\n\n\ Esta\ classe\ eh\ parte\ da\ aplicacao\ "World\ of\ Zuul".\n\ "World\ of\ Zuul"\ eh\ um\ jogo\ de\ aventura\ muito\ simples,\ baseado\ em\ texto.\ \ \n\n\ Um\ "Local"\ representa\ um\ lugar\ no\ cenario\ do\ jogo.\ Ele\ eh\ conectado\ \n\ aos\ outros\ locais\ atraves\ de\ saidas.\ As\ saidas\ sao\ nomeadas\ como\ \n\ norte,\ sul,\ leste\ e\ oeste.\ Para\ cada\ direcao,\ o\ local\ guarda\ uma\ \n\ referencia\ para\ o\ local\ vizinho,\ ou\ null\ se\ nao\ ha\ saida\ naquela\ \n\ direcao.\n\ \n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves.\ Vers\u00E3o\:\ 2023.10.21\n\ \n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n\ @version\ 2016.02.29\n
+comment1.params=descricao
+comment1.target=Local(java.lang.String)
+comment1.text=\n\ Cria\ um\ local\ com\ a\ "descricao"\ passada.\ Inicialmente,\ ele\n\ nao\ tem\ saidas.\ "descricao"\ eh\ algo\ como\ "uma\ cozinha"\ ou\n\ "um\ jardim\ aberto".\n\ @param\ descricao\ A\ descricao\ do\ local.\n
+comment2.params=norte\ leste\ sul\ oeste
+comment2.target=void\ ajustarSaidas(Local,\ Local,\ Local,\ Local)
+comment2.text=\n\ Define\ as\ saidas\ do\ local.\ Cada\ direcao\ ou\ leva\ a\ um\n\ outro\ local\ ou\ eh\ null\ (nenhuma\ saida\ para\ la).\n\ @param\ norte\ A\ saida\ norte.\n\ @param\ leste\ A\ saida\ leste.\n\ @param\ sul\ A\ saida\ sul.\n\ @param\ oeste\ A\ saida\ oeste.\n
+comment3.params=
+comment3.target=java.lang.String\ getDescricao()
+comment3.text=\n\ @return\ A\ descricao\ do\ local.\n
+numComments=4

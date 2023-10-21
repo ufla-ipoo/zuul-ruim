@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PalavrasDeComando
+comment0.text=\n\ Esta\ classe\ eh\ parte\ da\ aplicacao\ "World\ of\ Zuul".\n\ "World\ of\ Zuul"\ eh\ um\ jogo\ de\ aventura\ muito\ simples,\ baseado\ em\ texto.\ \ \n\ \n\ Essa\ classe\ guarda\ uma\ enumeracao\ de\ todos\ os\ comandos\ conhecidos\ do\n\ jogo.\ Ela\ eh\ usada\ no\ reconhecimento\ de\ comandos\ como\ eles\ sao\ digitados.\n\n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves.\ Vers\u00E3o\:\ 2023.10.21\n\ \n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n\ @version\ 2016.02.29\n
+comment1.params=
+comment1.target=PalavrasDeComando()
+comment1.text=\n\ Construtor\ -\ inicializa\ as\ palavras\ de\ comando.\n
+comment2.params=umaString
+comment2.target=boolean\ ehComando(java.lang.String)
+comment2.text=\n\ Verifica\ se\ uma\ dada\ String\ eh\ uma\ palavra\ de\ comando\ valida.\ \n\ @return\ true\ se\ a\ string\ dada\ eh\ um\ comando\ valido,\n\ false\ se\ nao\ eh.\n
+numComments=3
