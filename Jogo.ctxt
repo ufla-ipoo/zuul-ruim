@@ -1,11 +1,11 @@
 #BlueJ class context
 comment0.target=Jogo
-comment0.text=\n\ \ Essa\ eh\ a\ classe\ principal\ da\ aplicacao\ "World\ of\ Zull".\n\ \ "World\ of\ Zuul"\ eh\ um\ jogo\ de\ aventura\ muito\ simples,\ baseado\ em\ texto.\n\ \ Usuarios\ podem\ caminhar\ em\ um\ cenario.\ E\ eh\ tudo\!\ Ele\ realmente\n\ \ precisa\ ser\ estendido\ para\ fazer\ algo\ interessante\!\n\ \n\ \ Para\ jogar\ esse\ jogo,\ crie\ uma\ instancia\ dessa\ classe\ e\ chame\ o\ metodo\n\ \ "jogar".\n\ \n\ \ Essa\ classe\ principal\ cria\ e\ inicializa\ todas\ as\ outras\:\ ela\ cria\ os\n\ \ ambientes,\ cria\ o\ analisador\ e\ comeca\ o\ jogo.\ Ela\ tambeme\ avalia\ e\ \n\ \ executa\ os\ comandos\ que\ o\ analisador\ retorna.\n\ \n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves.\ Vers\u00E3o\:\ 2023.10.21\n\ \n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n\ @version\ 2016.02.29\n
+comment0.text=\n\ \ Essa\ eh\ a\ classe\ principal\ da\ aplicacao\ "World\ of\ Zull".\n\ \ "World\ of\ Zuul"\ eh\ um\ jogo\ de\ aventura\ muito\ simples,\ baseado\ em\ texto.\n\ \ Usuarios\ podem\ caminhar\ em\ um\ cenario.\ E\ eh\ tudo\!\ Ele\ realmente\n\ \ precisa\ ser\ estendido\ para\ fazer\ algo\ interessante\!\n\ \n\ \ Para\ jogar\ esse\ jogo,\ crie\ uma\ instancia\ dessa\ classe\ e\ chame\ o\ metodo\n\ \ "jogar".\n\ \n\ \ Essa\ classe\ principal\ cria\ e\ inicializa\ todas\ as\ outras\:\ ela\ cria\ os\n\ \ locais,\ cria\ o\ analisador\ e\ comeca\ o\ jogo.\ Ela\ tambeme\ avalia\ e\ \n\ \ executa\ os\ comandos\ que\ o\ analisador\ retorna.\n\ \n\ Traduzido\ por\ Julio\ C\u00E9sar\ Alves.\ Vers\u00E3o\:\ 2023.10.21\n\ \n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n\ @version\ 2016.02.29\n
 comment1.params=
 comment1.target=Jogo()
 comment1.text=\n\ Cria\ o\ jogo\ e\ incializa\ seu\ mapa\ interno.\n
 comment2.params=
-comment2.target=void\ criarAmbientes()
+comment2.target=void\ criarLocais()
 comment2.text=\n\ Cria\ todos\ os\ locais\ e\ liga\ as\ saidas\ deles\n
 comment3.params=
 comment3.target=void\ jogar()

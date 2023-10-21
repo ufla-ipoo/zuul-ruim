@@ -8,7 +8,7 @@
  *  "jogar".
  * 
  *  Essa classe principal cria e inicializa todas as outras: ela cria os
- *  ambientes, cria o analisador e comeca o jogo. Ela tambeme avalia e 
+ *  locais, cria o analisador e comeca o jogo. Ela tambeme avalia e 
  *  executa os comandos que o analisador retorna.
  * 
  * Traduzido por Julio César Alves. Versão: 2023.10.21
@@ -27,14 +27,14 @@ public class Jogo
      */
     public Jogo() 
     {
-        criarAmbientes();
+        criarLocais();
         analisador = new Analisador();
     }
 
     /**
      * Cria todos os locais e liga as saidas deles
      */
-    private void criarAmbientes()
+    private void criarLocais()
     {
         Local fora, anfiteatro, cantina, laboratorio, escritorio;
       
