@@ -57,7 +57,7 @@ public class Local
     /**
      * @return A descricao do local.
      */
-    public String getDescricao()
+    public String obterDescricao()
     {
         return descricao;
     }

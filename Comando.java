@@ -42,7 +42,7 @@ public class Comando
      * Se o comando nao foi entendido, o resultado eh null.
      * @return A palavra de comando.
      */
-    public String getPalavraDeComando()
+    public String obterPalavraDeComando()
     {
         return palavraDeComando;
     }
@@ -51,7 +51,7 @@ public class Comando
      * @return A segunda palavra deste comando. Retorna null se 
      * nao existe segunda palavra.
      */
-    public String getSegundaPalavra()
+    public String obterSegundaPalavra()
     {
         return segundaPalavra;
     }

@@ -5,6 +5,6 @@ comment1.params=
 comment1.target=Analisador()
 comment1.text=\n\ Cria\ um\ analisador\ para\ ler\ do\ terminal.\n
 comment2.params=
-comment2.target=Comando\ pegarComando()
+comment2.target=Comando\ obterComando()
 comment2.text=\n\ @return\ O\ proximo\ comando\ do\ usuario\n
 numComments=3

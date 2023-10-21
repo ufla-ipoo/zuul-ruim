@@ -8,6 +8,6 @@ comment2.params=norte\ leste\ sul\ oeste
 comment2.target=void\ ajustarSaidas(Local,\ Local,\ Local,\ Local)
 comment2.text=\n\ Define\ as\ saidas\ do\ local.\ Cada\ direcao\ ou\ leva\ a\ um\n\ outro\ local\ ou\ eh\ null\ (nenhuma\ saida\ para\ la).\n\ @param\ norte\ A\ saida\ norte.\n\ @param\ leste\ A\ saida\ leste.\n\ @param\ sul\ A\ saida\ sul.\n\ @param\ oeste\ A\ saida\ oeste.\n
 comment3.params=
-comment3.target=java.lang.String\ getDescricao()
+comment3.target=java.lang.String\ obterDescricao()
 comment3.text=\n\ @return\ A\ descricao\ do\ local.\n
 numComments=4

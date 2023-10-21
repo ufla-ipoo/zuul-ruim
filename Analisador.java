@@ -38,7 +38,7 @@ public class Analisador
     /**
      * @return O proximo comando do usuario
      */
-    public Comando pegarComando() 
+    public Comando obterComando() 
     {
         String linha;   // guardara uma linha inteira
         String palavra1 = null;

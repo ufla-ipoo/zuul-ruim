@@ -67,7 +67,7 @@ public class Jogo
                 
         boolean terminado = false;
         while (! terminado) {
-            Comando comando = analisador.pegarComando();
+            Comando comando = analisador.obterComando();
             terminado = processarComando(comando);
         }
         System.out.println("Obrigado por jogar. Ate mais!");
@@ -84,7 +84,7 @@ public class Jogo
         System.out.println("Digite 'ajuda' se voce precisar de ajuda.");
         System.out.println();
         
-        System.out.println("Voce esta " + localAtual.getDescricao());
+        System.out.println("Voce esta " + localAtual.obterDescricao());
     
         System.out.print("Saidas: ");
         if(localAtual.saidaNorte != null) {
@@ -116,7 +116,7 @@ public class Jogo
             return false;
         }
 
-        String palavraDeComando = comando.getPalavraDeComando();
+        String palavraDeComando = comando.obterPalavraDeComando();
         if (palavraDeComando.equals("ajuda")) {
             imprimirAjuda();
         }
@@ -158,7 +158,7 @@ public class Jogo
             return;
         }
 
-        String direcao = comando.getSegundaPalavra();
+        String direcao = comando.obterSegundaPalavra();
 
         // Tenta sair do local atual
         Local proximoLocal = null;
@@ -181,7 +181,7 @@ public class Jogo
         else {
             localAtual = proximoLocal;
             
-            System.out.println("Voce esta " + localAtual.getDescricao());
+            System.out.println("Voce esta " + localAtual.obterDescricao());
             
             System.out.print("Saidas: ");
             if(localAtual.saidaNorte != null) {
